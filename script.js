@@ -77,3 +77,6 @@ document.getElementById("contact-form").addEventListener("submit", async functio
         formStatus.style.display = "none";
     }, 5000);
 });
+
+
+document.getElementById("year").textContent = new Date().getFullYear();
