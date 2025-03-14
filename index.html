@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Poppins:wght@600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <h1>Steven Macias</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h1>Hi, I'm Steven Macias</h1>
+        <p>Web Developer | Creative Director | Photographer</p>
+        <a href="#projects" class="btn">View My Work</a>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+             Versatile Full-Stack Software Engineer with a strong foundation 
+             in both front-end and back-end development, committed to delivering
+             high-performance, user-centric solutions. With a keen eye for design 
+             and an innovative approach to problem-solving, I seamlessly blend technical 
+             expertise with creative vision, drawing from my experience as a 
+             Creative Director, Photographer, and Videographer. Known for my ability to
+             bridge the gap between technology and artistry, I bring a unique, multidisciplinary 
+             perspective to every project, ensuring functional, scalable, and visually compelling 
+             results. Additionally, as a trusted consultant, I excel at collaborating with cross-functional 
+             teams to drive business growth and deliver impactful digital experiences.
+        </p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <div class="project">
+                <img src="images/project.webp" alt="Project 1">
+                <h3>Tactico 90</h3>
+                <p>A Tracker For Soccer Events Around New York City</p>
+                <a href="https://github.com/stvnmcs/tactico-90-men-stack" class="btn" target="_blank">View Project</a>
+            </div>
+    
+            <div class="project">
+                <img src="images/project.webp" alt="Project 2">
+                <h3>Coin Toss</h3>
+                <p>Make Bets With Your Buddies App</p>
+                <a href="https://github.com/JosephCho29/coin-toss-frontend" class="btn" target="_blank">View Project</a>
+            </div>
+    
+            <div class="project">
+                <img src="images/project.webp" alt="Project 3">
+                <h3>Horizon</h3>
+                <p> Virtual Travel Assistance App</p>
+                <a href="https://github.com/Phillipcostas/Horizon-Group" class="btn" target="_blank">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out for collaborations or inquiries.</p>
+        
+        <form id="contact-form" action="https://formspree.io/f/xzzezbyy" method="POST">
+            <div class="input-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+        
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+        
+            <div class="input-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+        
+            <button type="submit" class="btn">Send Message</button>
+            <p id="form-status" class="status-message"></p>
+        </form>
+
+        <div class="social-links">
+            <a href="https://www.instagram.com/stvnmcs/" target="_blank">
+                <img src="images/instagram.svg" alt="Instagram">
+            </a>
+            <a href="https://www.linkedin.com/in/stevenmacias222/" target="_blank">
+                <img src="images/inspire.svg" alt="LinkedIn">
+            </a>
+            <a href="https://github.com/stvnmcs" target="_blank">
+                <img src="images/github.svg" alt="GitHub">
+            </a>
+        </div>
+        
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>
