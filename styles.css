@@ -222,3 +222,14 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+#scroll-progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 5px;
+    background: #ff9800;
+    z-index: 1000;
+    transition: width 0.2s ease;
+}
