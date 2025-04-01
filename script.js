@@ -80,3 +80,11 @@ document.getElementById("contact-form").addEventListener("submit", async functio
 
 
 document.getElementById("year").textContent = new Date().getFullYear();
+
+
+window.addEventListener("scroll", () => {
+    let scrollTop = document.documentElement.scrollTop;
+    let scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    let scrollPercentage = (scrollTop / scrollHeight) * 100;
+    document.getElementById("scroll-progress").style.width = scrollPercentage + "%";
+});
